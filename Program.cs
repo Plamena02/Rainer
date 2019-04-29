@@ -37,9 +37,7 @@ namespace Rainer1
                 {
                     sequence[i] += br;
                 }
-
             }
-            
             var index = int.Parse(Console.ReadLine());
 
             while (true)
@@ -48,7 +46,6 @@ namespace Rainer1
                 for (int i = 0; i < sequence.Count; i++)
                 {
                     sequence[i] -= 1;
-
                 }
                 if (sequence[index] == 0)
                 {
@@ -62,7 +59,6 @@ namespace Rainer1
                     {
                         sequence[i] = sequence1[i];
                     }
-
                 }
                 index = int.Parse(Console.ReadLine());
             }  
