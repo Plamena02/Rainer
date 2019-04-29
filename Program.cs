@@ -64,11 +64,8 @@ namespace Rainer1
                     }
 
                 }
-                
                 index = int.Parse(Console.ReadLine());
-            }
-            
-            
+            }  
         }
     }
 }
